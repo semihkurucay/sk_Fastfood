@@ -29,7 +29,7 @@ public class frmWaiter extends javax.swing.JFrame {
 
     String payType = "NAKİT";
     Product product;
-    SellProductInfo productInfo = new SellProductInfo();
+    SellProductInfo productInfo;
     SqlProductProcess productProcess = new SqlProductProcess();
     SqlSellProcess sellProcess = new SqlSellProcess();
     DefaultListModel model = new DefaultListModel();
@@ -488,9 +488,9 @@ public class frmWaiter extends javax.swing.JFrame {
     private void btnProductAddActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductAddActionPerformed
         // TODO add your handling code here:
         try {
+            productInfo = new SellProductInfo();
             if (productInfo.chkSetComment(txtProductComment.getText()) && productProcess.isThereProduct(Integer.parseInt(txtProductID.getText()))) {
-                productInfo = new SellProductInfo();
-
+                
                 product = productProcess.getProduct(Integer.parseInt(txtProductID.getText()));
                 productInfo.setAmount((int) spbProductCount.getValue());
                 productInfo.setProduct(productProcess.getProduct(Integer.parseInt(txtProductID.getText())));
