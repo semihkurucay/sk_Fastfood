@@ -23,3 +23,12 @@ Bu proje, özellikle **fast-food restoranları, büfeler ve paket servis odaklı
 <img width="1919" height="1028" alt="Ekran görüntüsü 2025-09-04 012359" src="https://github.com/user-attachments/assets/417c3f91-5cdc-4c4c-a5b2-31f4488aa317" />
 <img width="1919" height="1028" alt="Ekran görüntüsü 2025-09-04 012614" src="https://github.com/user-attachments/assets/eb676570-2dee-45f5-b6a7-469f7a5cc17d" />
 <img width="1919" height="1028" alt="Ekran görüntüsü 2025-09-04 012659" src="https://github.com/user-attachments/assets/d7532e5e-0735-4af1-a944-ea058886167e" />
+
+
+## ⚖️ Lisans
+
+Bu proje [Creative Commons Attribution-NonCommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/) lisansı ile lisanslanmıştır.
+
+🔒 Ticari kullanım yasaktır.  
+📎 Eğitim ve kişisel kullanım için serbesttir.  
+📩 Ticari kullanım için iletişime geçiniz.
